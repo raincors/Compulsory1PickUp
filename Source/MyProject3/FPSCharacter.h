@@ -41,14 +41,14 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Enhanced Input");
 	class UInputAction* IA_Jump;
 
-	UPROPERTY(EditAnywhere, Category = "Enhanced Input");
-	class UInputAction* IA_Interact;
+	//UPROPERTY(EditAnywhere, Category = "Enhanced Input");
+	//class UInputAction* IA_Interact;
 
 	void MoveInput(const FInputActionValue& InputValue);
 	void LookInput(const FInputActionValue& InputValue);
 	void JumpInput();
-	UFUNCTION(BlueprintImplementableEvent)
-	void Interact();
+	//UFUNCTION(BlueprintImplementableEvent)
+	//void Interact();
 	
 public:	
 	// Called every frame

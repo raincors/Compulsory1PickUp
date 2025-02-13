@@ -60,7 +60,7 @@ void AFPSCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 		Input->BindAction(IA_Move, ETriggerEvent::Triggered,this,&AFPSCharacter::MoveInput);
 		Input->BindAction(IA_Jump, ETriggerEvent::Triggered,this,&AFPSCharacter::JumpInput);
 		Input->BindAction(IA_Look, ETriggerEvent::Triggered,this,&AFPSCharacter::LookInput);
-		Input->BindAction(IA_Interact,ETriggerEvent::Triggered, this, &AFPSCharacter::Interact);
+//		Input->BindAction(IA_Interact,ETriggerEvent::Triggered, this, &AFPSCharacter::Interact);
 	}
 
 	
@@ -106,8 +106,8 @@ void AFPSCharacter::JumpInput()
 	AFPSCharacter::Jump();
 }
 
-void AFPSCharacter::Interact()
-{
-	AFPSCharacter::Interact();
-}
+//void AFPSCharacter::Interact()
+//{
+//	AFPSCharacter::Interact();
+//}
 
